@@ -250,11 +250,11 @@ public class TickerTimerTask extends TimerTask {
                                 }
                             }
 
-                            log.debug("Getting DOGE conversion");
+                            log.debug("Getting SKR conversion");
                             float dogeRate = DogeUtils.requestDogeBtcConversion();
                             if (dogeRate == 0f)
                             {
-                                log.debug("Problem getting DOGE conversion");
+                                log.debug("Problem getting SKR conversion");
                                 return;
                             }
 

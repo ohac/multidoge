@@ -2,11 +2,11 @@
 
 <shortcuts>
 
-  <programGroup defaultName="MultiDoge"
+  <programGroup defaultName="MultiSakura"
   location="applications"/>
 
    <shortcut
-     name="MultiDoge ${project.version}"
+     name="MultiSakura ${project.version}"
      programGroup="yes"
      desktop="yes"
      applications="no"
@@ -19,10 +19,10 @@
      workingDirectory="$INSTALL_PATH"
      type="Application"
      encoding="UTF-8"
-     description="MultiDoge ${project.version}">
+     description="MultiSakura ${project.version}">
    </shortcut>
    <shortcut
-     name="Uninstall MultiDoge ${project.version}"
+     name="Uninstall MultiSakura ${project.version}"
      programGroup="yes"
      desktop="yes"
      applications="no"
@@ -34,7 +34,7 @@
      workingDirectory="$INSTALL_PATH"
      type="Application"
      encoding="UTF-8"
-     description="Uninstall MultiDoge ${project.version}">
+     description="Uninstall MultiSakura ${project.version}">
    </shortcut>
 </shortcuts>
 

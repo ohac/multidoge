@@ -213,7 +213,7 @@ public class ShowTransactionsPanel extends JPanel implements Viewable, CurrencyC
         tableColumn.setPreferredWidth(250);
 
         tableColumn = table.getColumnModel().getColumn(3); // Amount (BTC).
-        int amountBTCWidth = Math.max(fontMetrics.stringWidth(controller.getLocaliser().getString("sendBitcoinPanel.amountLabel") + " (DOGE)"),
+        int amountBTCWidth = Math.max(fontMetrics.stringWidth(controller.getLocaliser().getString("sendBitcoinPanel.amountLabel") + " (SKR)"),
                 fontMetrics.stringWidth("00000.000000000"));
         tableColumn.setPreferredWidth(amountBTCWidth);
         tableColumn.setMinWidth(amountBTCWidth);

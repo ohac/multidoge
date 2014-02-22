@@ -333,7 +333,7 @@ public class MultiBitFrame extends JFrame implements ViewSystem, ApplicationList
         allowMinimizeToTray = Boolean.TRUE.toString().equals(userPreferences.getProperty(CoreModel.MINIMIZE_TO_TRAY, "false"));
 
         Image trayIconIcon = new ImageIcon(this.getClass().getResource("/images/multidoge64.png")).getImage();
-        trayIcon = new TrayIcon(trayIconIcon, "MultiDoge");
+        trayIcon = new TrayIcon(trayIconIcon, "MultiSakura");
         trayIcon.setImageAutoSize(true);
         trayIcon.addMouseListener(new MouseListener() {
             @Override

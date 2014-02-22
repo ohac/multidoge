@@ -16,8 +16,8 @@
       The meaning of the tags should be natural ...
   -->
   <info>
-    <appname>MultiDoge</appname>
-    <appsubpath>MultiDoge-${project.version}</appsubpath>
+    <appname>MultiSakura</appname>
+    <appsubpath>MultiSakura-${project.version}</appsubpath>
     <appversion>${project.version}</appversion>
     <url>https://multidoge.org/</url>
     <uninstaller write="yes"/>
@@ -91,8 +91,8 @@
       We specify here our packs.
   -->
   <packs>
-    <pack name="MultiDoge" required="yes">
-      <description>MultiDoge install files.</description>
+    <pack name="MultiSakura" required="yes">
+      <description>MultiSakura install files.</description>
       <file src="readme.txt" targetdir="$INSTALL_PATH"/>
       <file src="configuration.md" targetdir="$INSTALL_PATH"/>
       <file src="multisakura.ico" targetdir="$INSTALL_PATH"/>

@@ -346,7 +346,7 @@ public class MultiBitService {
       } else {
         peerGroup.addPeerDiscovery(new DnsDiscovery(networkParameters));
       }*/
-        //DOGE: Only production for now.
+        //SKR: Only production for now.
         peerGroup.addPeerDiscovery(new DnsDiscovery(networkParameters));
     }
     // Add the controller as a PeerEventListener.
@@ -378,7 +378,7 @@ public class MultiBitService {
       return MULTIBIT_PREFIX + SEPARATOR + TESTNET_PREFIX;
     } else {*/
       return MULTIBIT_PREFIX;
-    //} //TODO DOGE: No testnet...
+    //} //TODO SKR: No testnet...
   }
 
   /**

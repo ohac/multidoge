@@ -6,7 +6,7 @@ sakuracoin.reg:
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\sakuracoin]
-@="URL:Dogecoin Protocol"
+@="URL:Sakuracoin Protocol"
 "URL Protocol"=""
 
 [HKEY_CLASSES_ROOT\sakuracoin\DefaultIcon]
@@ -17,14 +17,14 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\sakuracoin\shell\open]
 
 [HKEY_CLASSES_ROOT\sakuracoin\shell\open\command]
-@="\"C:\\Program Files\\MultiDoge-0.2.0beta4\\multisakura.exe\" \"%1\""
+@="\"C:\\Program Files\\MultiSakura-0.2.0beta4\\multisakura.exe\" \"%1\""
 
 
 -->
 <registry>
-  <pack name="MultiDoge">
+  <pack name="MultiSakura">
     <key root="HKCR" keypath="sakuracoin" />
-    <value root="HKCR" name="" keypath="sakuracoin" string="URL:Dogecoin Protocol"/>
+    <value root="HKCR" name="" keypath="sakuracoin" string="URL:Sakuracoin Protocol"/>
     <value root="HKCR" name="URL Protocol" keypath="sakuracoin" string=""/>
     <value root="HKCR" name="UseOriginalUrlEncoding" keypath="sakuracoin" dword="1"/>
 

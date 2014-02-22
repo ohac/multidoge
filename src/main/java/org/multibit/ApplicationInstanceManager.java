@@ -34,7 +34,7 @@ public final class ApplicationInstanceManager {
     private static ApplicationInstanceListener subListener;
 
     /**
-     * MultiDoge port number. Must be different to Multibit as specified in
+     * MultiSakura port number. Must be different to Multibit as specified in
      * http://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
      */
     public static final int MULTIBIT_NETWORK_SOCKET = 22554;
@@ -42,7 +42,7 @@ public final class ApplicationInstanceManager {
     /**
      * Multibit message start - must end with newline
      */
-    public static final String MESSAGE_START = "$$MultiDogeMessageStart$$\n";
+    public static final String MESSAGE_START = "$$MultiSakuraMessageStart$$\n";
 
     /**
      * Multibit message end - must end with newline (nonsense text to make it
