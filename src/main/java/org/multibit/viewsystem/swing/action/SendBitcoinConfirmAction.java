@@ -38,7 +38,7 @@ import java.awt.event.ActionEvent;
 import java.math.BigInteger;
 
 /**
- * This {@link Action} shows the send dogecoin confirm dialog or validation dialog on an attempted spend.
+ * This {@link Action} shows the send sakuracoin confirm dialog or validation dialog on an attempted spend.
  */
 public class SendBitcoinConfirmAction extends MultiBitSubmitAction {
 
@@ -61,7 +61,7 @@ public class SendBitcoinConfirmAction extends MultiBitSubmitAction {
     }
 
     /**
-     * Complete the transaction to work out the fee) and then show the send dogecoin confirm dialog.
+     * Complete the transaction to work out the fee) and then show the send sakuracoin confirm dialog.
      */
     @Override
     public void actionPerformed(ActionEvent e) {

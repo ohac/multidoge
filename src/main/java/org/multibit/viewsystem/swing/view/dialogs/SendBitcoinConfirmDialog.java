@@ -33,7 +33,7 @@ import org.multibit.viewsystem.swing.view.components.MultiBitDialog;
 import com.google.sakuracoin.core.Wallet.SendRequest;
 
 /**
- * The send dogecoin confirm dialog.
+ * The send sakuracoin confirm dialog.
  */
 public class SendBitcoinConfirmDialog extends MultiBitDialog {
 
@@ -72,7 +72,7 @@ public class SendBitcoinConfirmDialog extends MultiBitDialog {
     }
 
     /**
-     * Initialise dogecoin confirm dialog.
+     * Initialise sakuracoin confirm dialog.
      */
     public void initUI() {
         FontMetrics fontMetrics = getFontMetrics(FontSizer.INSTANCE.getAdjustedDefaultFont());

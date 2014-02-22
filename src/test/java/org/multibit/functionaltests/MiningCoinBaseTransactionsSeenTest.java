@@ -85,7 +85,7 @@ public class MiningCoinBaseTransactionsSeenTest extends TestCase {
             final CreateControllers.Controllers controllers = CreateControllers.createControllers(applicationDataDirectoryLocator);
 
             log.debug("Creating Bitcoin service");
-            // Create the MultiBitService that connects to the dogecoin network.
+            // Create the MultiBitService that connects to the sakuracoin network.
             MultiBitService multiBitService = new MultiBitService(controllers.bitcoinController);
             log.debug("multiBitService = " + multiBitService);
 
@@ -205,13 +205,13 @@ public class MiningCoinBaseTransactionsSeenTest extends TestCase {
         System.out.println("Building MultiBit runtime in : " + multiBitDirectory.getAbsolutePath());
 
         // Create an empty multibit.properties.
-        File multibitProperties = new File(multiBitDirectoryPath + File.separator + "multidoge.properties");
+        File multibitProperties = new File(multiBitDirectoryPath + File.separator + "multisakura.properties");
         multibitProperties.createNewFile();
         multibitProperties.deleteOnExit();
 
         // Copy in the checkpoints stored in git - this is in source/main/resources/.
-        File multibitCheckpoints = new File(multiBitDirectoryPath + File.separator + "multidoge.checkpoints");
-        FileHandler.copyFile(new File("./src/main/resources/multidoge.checkpoints"), multibitCheckpoints);
+        File multibitCheckpoints = new File(multiBitDirectoryPath + File.separator + "multisakura.checkpoints");
+        FileHandler.copyFile(new File("./src/main/resources/multisakura.checkpoints"), multibitCheckpoints);
         multibitCheckpoints.deleteOnExit();
 
         return multiBitDirectory;

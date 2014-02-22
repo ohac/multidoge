@@ -60,12 +60,12 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * <p>
- * MultiBitService encapsulates the interaction with the dogecoin netork
+ * MultiBitService encapsulates the interaction with the sakuracoin netork
  * including: o Peers o Block chain download o sending / receiving bitcoins
  * <p/>
  * The testnet can be slow or flaky as it's a shared resource. You can use the
  * <a href="http://sourceforge
- * .net/projects/dogecoin/files/Bitcoin/testnet-in-a-box/">testnet in a box</a>
+ * .net/projects/sakuracoin/files/Bitcoin/testnet-in-a-box/">testnet in a box</a>
  * to do everything purely locally.
  * </p>
  */
@@ -74,7 +74,7 @@ public class MultiBitService {
 
   private static final Logger log = LoggerFactory.getLogger(MultiBitService.class);
 
-  public static final String MULTIBIT_PREFIX = "multidoge";
+  public static final String MULTIBIT_PREFIX = "multisakura";
   public static final String TESTNET_PREFIX = "testnet";
   public static final String TESTNET3_PREFIX = "testnet3";
   public static final String SEPARATOR = "-";
@@ -565,7 +565,7 @@ public class MultiBitService {
   public Transaction sendCoins(WalletData perWalletModelData, SendRequest sendRequest,
                                CharSequence password) throws java.io.IOException, AddressFormatException, KeyCrypterException {
 
-    // Ping the peers to check the dogecoin network connection
+    // Ping the peers to check the sakuracoin network connection
     List<Peer> connectedPeers = peerGroup.getConnectedPeers();
     boolean atLeastOnePingWorked = false;
     if (connectedPeers != null) {

@@ -253,7 +253,7 @@ public final class MultiBit {
             MessageManager.INSTANCE.addMessage(directoryMessage2);
 
             log.debug("Creating Bitcoin service");
-            // Create the MultiBitService that connects to the dogecoin network.
+            // Create the MultiBitService that connects to the sakuracoin network.
             MultiBitService multiBitService = new MultiBitService(bitcoinController);
             bitcoinController.setMultiBitService(multiBitService);
 
@@ -706,7 +706,7 @@ public final class MultiBit {
     }
 
     public static void setRememberedRawBitcoinURI(String rememberedRawBitcoinURI) {
-        log.debug("Remembering the dogecoin URI to process of '" + rememberedRawBitcoinURI + "'");
+        log.debug("Remembering the sakuracoin URI to process of '" + rememberedRawBitcoinURI + "'");
         MultiBit.rememberedRawBitcoinURI = rememberedRawBitcoinURI;
     }
 }

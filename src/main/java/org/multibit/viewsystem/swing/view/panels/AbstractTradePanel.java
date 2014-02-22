@@ -213,7 +213,7 @@ public abstract class AbstractTradePanel extends JPanel implements Viewable, Cop
     }
 
     /**
-     * is it the receive dogecoin panel (return true) or the send dogecoin panel
+     * is it the receive sakuracoin panel (return true) or the send sakuracoin panel
      * (return false)
      */
     protected abstract boolean isReceiveBitcoin();

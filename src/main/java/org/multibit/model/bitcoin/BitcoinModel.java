@@ -66,7 +66,7 @@ public class BitcoinModel extends AbstractModel<CoreModel> {
     public static final String WALLET_ORDER_TOTAL = "walletOrderTotal";
     public static final String WALLET_ORDER_PREFIX = "walletOrder.";
 
-    // Send dogecoin and send dogecoin confirm.
+    // Send sakuracoin and send sakuracoin confirm.
     public static final String SEND_ADDRESS = "sendAddress";
     public static final String SEND_LABEL = "sendLabel";
     public static final String SEND_AMOUNT = "sendAmount";
@@ -78,7 +78,7 @@ public class BitcoinModel extends AbstractModel<CoreModel> {
     
     public static final int MINIMUM_NUMBER_OF_CONNECTED_PEERS_BEFORE_SEND_IS_ENABLED = 2;
 
-    // Open dogecoin URI.
+    // Open sakuracoin URI.
     public static final String OPEN_URI_SHOW_DIALOG = "openUriShowDialog";
     public static final String OPEN_URI_USE_URI = "openUriUseUri";
     public static final String OPEN_URI_ADDRESS = "openUriAddress";
@@ -96,7 +96,7 @@ public class BitcoinModel extends AbstractModel<CoreModel> {
     // Maximum fee.
     public static final BigInteger SEND_MAXIMUM_FEE = new BigInteger("100000000000"); // 1000 SKR. Hope it won't ever go above du to bogus transactions.
 
-    // Receive dogecoin.
+    // Receive sakuracoin.
     public static final String IS_RECEIVE_BITCOIN = "isReceiveBitcoin";
     public static final String RECEIVE_ADDRESS = "receiveAddress";
     public static final String RECEIVE_LABEL = "receiveLabel";

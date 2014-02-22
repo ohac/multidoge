@@ -42,7 +42,7 @@ public class ApplicationDataDirectoryLocator {
      * 
      * This is worked out as follows:
      * 
-     * 1. See if there is a multidoge.properties in MultiSakura's current working
+     * 1. See if there is a multisakura.properties in MultiSakura's current working
      * directory If there is, use this directory as the application data
      * directory This is for backwards compatibility and for running everything
      * from a USB drive

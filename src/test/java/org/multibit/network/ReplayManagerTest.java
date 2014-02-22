@@ -77,7 +77,7 @@ public class ReplayManagerTest extends TestCase {
         controller = controllers.bitcoinController;
 
         log.debug("Creating Bitcoin service");
-        // Create the MultiBitService that connects to the dogecoin network.
+        // Create the MultiBitService that connects to the sakuracoin network.
         MultiBitService multiBitService = new MultiBitService(controller);
         controller.setMultiBitService(multiBitService);
 
@@ -191,14 +191,14 @@ public class ReplayManagerTest extends TestCase {
         System.out.println("Building MultiBit runtime in : " + multiBitDirectory.getAbsolutePath());
 
         // Create an empty multibit.properties.
-        File multibitProperties = new File(multiBitDirectoryPath + File.separator + "multidoge.properties");
+        File multibitProperties = new File(multiBitDirectoryPath + File.separator + "multisakura.properties");
         multibitProperties.createNewFile();
         multibitProperties.deleteOnExit();
 
         // Copy in the checkpoints and blockchain stored in git - this is in
         // source/main/resources/.
-        File multibitBlockcheckpoints = new File(multiBitDirectoryPath + File.separator + "multidoge.checkpoints");
-        FileHandler.copyFile(new File("./src/main/resources/multidoge.checkpoints"), multibitBlockcheckpoints);
+        File multibitBlockcheckpoints = new File(multiBitDirectoryPath + File.separator + "multisakura.checkpoints");
+        FileHandler.copyFile(new File("./src/main/resources/multisakura.checkpoints"), multibitBlockcheckpoints);
         multibitBlockcheckpoints.deleteOnExit();
 
         return multiBitDirectory;

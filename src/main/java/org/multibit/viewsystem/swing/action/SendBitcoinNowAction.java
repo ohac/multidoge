@@ -37,7 +37,7 @@ import java.io.IOException;
 import java.nio.CharBuffer;
 
 /**
- * This {@link Action} actually spends dogecoin.
+ * This {@link Action} actually spends sakuracoin.
  */
 public class SendBitcoinNowAction extends AbstractAction implements WalletBusyListener {
 
@@ -93,7 +93,7 @@ public class SendBitcoinNowAction extends AbstractAction implements WalletBusyLi
   }
 
   /**
-   * Actually send the dogecoin.
+   * Actually send the sakuracoin.
    */
   @Override
   public void actionPerformed(ActionEvent event) {
@@ -214,7 +214,7 @@ public class SendBitcoinNowAction extends AbstractAction implements WalletBusyLi
       log.error(e.getMessage(), e);
       message = controller.getLocaliser().getString("sendBitcoinNowAction.pingFailure");
     } catch (Exception e) {
-      // Really trying to catch anything that goes wrong with the send dogecoin.
+      // Really trying to catch anything that goes wrong with the send sakuracoin.
       log.error(e.getMessage(), e);
       message = e.getMessage();
     } finally {

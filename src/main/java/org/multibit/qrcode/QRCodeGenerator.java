@@ -108,10 +108,10 @@ public class QRCodeGenerator {
             }
             this.bitcoinController.getModel().setActiveWalletPreference(BitcoinModel.SEND_PERFORM_PASTE_NOW, "false");
         } catch (IllegalArgumentException e) {
-            //log.warn("The address '" + address + "' could not be converted to a dogecoin address. (IAE)");
+            //log.warn("The address '" + address + "' could not be converted to a sakuracoin address. (IAE)");
             return null;
         } catch (AddressFormatException e) {
-            //log.warn("The address '" + address + "' could not be converted to a dogecoin address. (AFE)");
+            //log.warn("The address '" + address + "' could not be converted to a sakuracoin address. (AFE)");
             return null;
         }
 

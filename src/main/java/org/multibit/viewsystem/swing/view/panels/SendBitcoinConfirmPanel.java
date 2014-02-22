@@ -43,7 +43,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * The send dogecoin confirm panel.
+ * The send sakuracoin confirm panel.
  */
 public class SendBitcoinConfirmPanel extends JPanel implements WalletBusyListener {
     private static final long serialVersionUID = 191435612399957705L;
@@ -116,7 +116,7 @@ public class SendBitcoinConfirmPanel extends JPanel implements WalletBusyListene
     }
 
     /**
-     * Initialise dogecoin confirm panel.
+     * Initialise sakuracoin confirm panel.
      */
     public void initUI() {
         JPanel mainPanel = new JPanel();

@@ -317,6 +317,6 @@ public class ExportPrivateKeysSubmitActionTest extends TestCase {
         exportPrivateKeysSubmitAction.actionPerformed(null);
         Object[] messages = MessageManager.INSTANCE.getMessages().toArray();
         assertTrue("There were no messages but there should have been", messages != null && messages.length > 0);
-        assertEquals("Wrong message after receive dogecoin confirm with no active wallet", ResetTransactionsSubmitActionTest.EXPECTED_NO_WALLET_IS_SELECTED, ((Message)messages[messages.length - 1]).getText());
+        assertEquals("Wrong message after receive sakuracoin confirm with no active wallet", ResetTransactionsSubmitActionTest.EXPECTED_NO_WALLET_IS_SELECTED, ((Message)messages[messages.length - 1]).getText());
     }
 }
