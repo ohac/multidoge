@@ -15,10 +15,10 @@
  */
 package org.multibit.viewsystem.swing.action;
 
-import com.google.dogecoin.core.AddressFormatException;
-import com.google.dogecoin.core.Transaction;
-import com.google.dogecoin.core.Wallet.SendRequest;
-import com.google.dogecoin.crypto.KeyCrypterException;
+import com.google.sakuracoin.core.AddressFormatException;
+import com.google.sakuracoin.core.Transaction;
+import com.google.sakuracoin.core.Wallet.SendRequest;
+import com.google.sakuracoin.crypto.KeyCrypterException;
 import org.bitcoinj.wallet.Protos.Wallet.EncryptionType;
 import org.multibit.controller.Controller;
 import org.multibit.controller.bitcoin.BitcoinController;

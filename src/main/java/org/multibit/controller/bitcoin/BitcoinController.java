@@ -15,9 +15,9 @@
  */
 package org.multibit.controller.bitcoin;
 
-import com.google.dogecoin.core.*;
-import com.google.dogecoin.uri.BitcoinURI;
-import com.google.dogecoin.uri.BitcoinURIParseException;
+import com.google.sakuracoin.core.*;
+import com.google.sakuracoin.uri.BitcoinURI;
+import com.google.sakuracoin.uri.BitcoinURIParseException;
 import org.multibit.controller.AbstractController;
 import org.multibit.controller.AbstractEventHandler;
 import org.multibit.controller.core.CoreController;

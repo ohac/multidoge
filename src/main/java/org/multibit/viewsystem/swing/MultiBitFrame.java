@@ -15,10 +15,10 @@
  */
 package org.multibit.viewsystem.swing;
 
-import com.google.dogecoin.core.ECKey;
-import com.google.dogecoin.core.Sha256Hash;
-import com.google.dogecoin.core.Transaction;
-import com.google.dogecoin.core.Wallet;
+import com.google.sakuracoin.core.ECKey;
+import com.google.sakuracoin.core.Sha256Hash;
+import com.google.sakuracoin.core.Transaction;
+import com.google.sakuracoin.core.Wallet;
 import org.bitcoinj.wallet.Protos.Wallet.EncryptionType;
 import org.joda.money.Money;
 import org.multibit.ApplicationDataDirectoryLocator;

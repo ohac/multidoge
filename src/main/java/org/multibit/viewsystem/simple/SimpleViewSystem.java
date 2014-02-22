@@ -8,9 +8,9 @@ import org.multibit.model.core.StatusEnum;
 import org.multibit.viewsystem.DisplayHint;
 import org.multibit.viewsystem.ViewSystem;
 
-import com.google.dogecoin.core.ECKey;
-import com.google.dogecoin.core.Transaction;
-import com.google.dogecoin.core.Wallet;
+import com.google.sakuracoin.core.ECKey;
+import com.google.sakuracoin.core.Transaction;
+import com.google.sakuracoin.core.Wallet;
 import org.multibit.viewsystem.View;
 
 /**

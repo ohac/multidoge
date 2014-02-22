@@ -15,10 +15,10 @@
  */
 package org.multibit.viewsystem.swing.view.panels;
 
-import com.google.dogecoin.core.Sha256Hash;
-import com.google.dogecoin.core.Transaction;
-import com.google.dogecoin.core.Utils;
-import com.google.dogecoin.core.Wallet.SendRequest;
+import com.google.sakuracoin.core.Sha256Hash;
+import com.google.sakuracoin.core.Transaction;
+import com.google.sakuracoin.core.Utils;
+import com.google.sakuracoin.core.Wallet.SendRequest;
 import org.bitcoinj.wallet.Protos.Wallet.EncryptionType;
 import org.multibit.MultiBit;
 import org.multibit.controller.Controller;

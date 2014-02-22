@@ -39,10 +39,10 @@ import org.multibit.exchange.CurrencyConverter;
 import org.multibit.exchange.CurrencyConverterResult;
 import org.multibit.model.bitcoin.BitcoinModel;
 
-import com.google.dogecoin.core.Address;
-import com.google.dogecoin.core.AddressFormatException;
-import com.google.dogecoin.core.Utils;
-import com.google.dogecoin.uri.BitcoinURI;
+import com.google.sakuracoin.core.Address;
+import com.google.sakuracoin.core.AddressFormatException;
+import com.google.sakuracoin.core.Utils;
+import com.google.sakuracoin.uri.BitcoinURI;
 import com.google.zxing.WriterException;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import com.google.zxing.qrcode.encoder.ByteMatrix;

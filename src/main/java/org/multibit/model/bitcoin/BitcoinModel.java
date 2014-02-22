@@ -15,9 +15,9 @@
  */
 package org.multibit.model.bitcoin;
 
-import com.google.dogecoin.core.*;
-import com.google.dogecoin.core.Wallet.BalanceType;
-import com.google.dogecoin.store.BlockStoreException;
+import com.google.sakuracoin.core.*;
+import com.google.sakuracoin.core.Wallet.BalanceType;
+import com.google.sakuracoin.store.BlockStoreException;
 import org.multibit.controller.Controller;
 import org.multibit.controller.bitcoin.BitcoinController;
 import org.multibit.model.AbstractModel;

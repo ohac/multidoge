@@ -40,10 +40,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.util.Arrays;
 
-import com.google.dogecoin.core.Wallet;
-import com.google.dogecoin.crypto.KeyCrypter;
-import com.google.dogecoin.crypto.KeyCrypterException;
-import com.google.dogecoin.crypto.KeyCrypterScrypt;
+import com.google.sakuracoin.core.Wallet;
+import com.google.sakuracoin.crypto.KeyCrypter;
+import com.google.sakuracoin.crypto.KeyCrypterException;
+import com.google.sakuracoin.crypto.KeyCrypterScrypt;
 import com.google.protobuf.ByteString;
 
 /**

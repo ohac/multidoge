@@ -35,8 +35,8 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TimeZone;
 
-import com.google.dogecoin.crypto.KeyCrypter;
-import com.google.dogecoin.crypto.KeyCrypterException;
+import com.google.sakuracoin.crypto.KeyCrypter;
+import com.google.sakuracoin.crypto.KeyCrypterException;
 
 import org.multibit.crypto.KeyCrypterOpenSSL;
 import org.multibit.utils.DateUtils;
@@ -44,19 +44,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.crypto.params.KeyParameter;
 
-import com.google.dogecoin.core.AddressFormatException;
-import com.google.dogecoin.core.Block;
-import com.google.dogecoin.core.BlockChain;
-import com.google.dogecoin.core.DumpedPrivateKey;
-import com.google.dogecoin.core.ECKey;
-import com.google.dogecoin.core.NetworkParameters;
-import com.google.dogecoin.core.ScriptException;
-import com.google.dogecoin.core.StoredBlock;
-import com.google.dogecoin.core.Transaction;
-import com.google.dogecoin.core.TransactionInput;
-import com.google.dogecoin.core.TransactionOutput;
-import com.google.dogecoin.core.Utils;
-import com.google.dogecoin.core.Wallet;
+import com.google.sakuracoin.core.AddressFormatException;
+import com.google.sakuracoin.core.Block;
+import com.google.sakuracoin.core.BlockChain;
+import com.google.sakuracoin.core.DumpedPrivateKey;
+import com.google.sakuracoin.core.ECKey;
+import com.google.sakuracoin.core.NetworkParameters;
+import com.google.sakuracoin.core.ScriptException;
+import com.google.sakuracoin.core.StoredBlock;
+import com.google.sakuracoin.core.Transaction;
+import com.google.sakuracoin.core.TransactionInput;
+import com.google.sakuracoin.core.TransactionOutput;
+import com.google.sakuracoin.core.Utils;
+import com.google.sakuracoin.core.Wallet;
 
 import org.bitcoinj.wallet.Protos.Wallet.EncryptionType;
 

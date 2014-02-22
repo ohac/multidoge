@@ -15,9 +15,9 @@
  */
 package org.multibit.viewsystem.swing.view.panels;
 
-import com.google.dogecoin.core.Address;
-import com.google.dogecoin.uri.BitcoinURI;
-import com.google.dogecoin.uri.BitcoinURIParseException;
+import com.google.sakuracoin.core.Address;
+import com.google.sakuracoin.uri.BitcoinURI;
+import com.google.sakuracoin.uri.BitcoinURIParseException;
 import org.joda.money.Money;
 import org.multibit.controller.Controller;
 import org.multibit.controller.bitcoin.BitcoinController;

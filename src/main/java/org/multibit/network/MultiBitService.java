@@ -15,14 +15,14 @@
  */
 package org.multibit.network;
 
-import com.google.dogecoin.core.MultiBitBlockChain;
-import com.google.dogecoin.core.*;
-import com.google.dogecoin.core.Wallet.SendRequest;
-import com.google.dogecoin.crypto.KeyCrypterException;
-import com.google.dogecoin.discovery.DnsDiscovery;
-import com.google.dogecoin.store.BlockStore;
-import com.google.dogecoin.store.BlockStoreException;
-import com.google.dogecoin.store.SPVBlockStore;
+import com.google.sakuracoin.core.MultiBitBlockChain;
+import com.google.sakuracoin.core.*;
+import com.google.sakuracoin.core.Wallet.SendRequest;
+import com.google.sakuracoin.crypto.KeyCrypterException;
+import com.google.sakuracoin.discovery.DnsDiscovery;
+import com.google.sakuracoin.store.BlockStore;
+import com.google.sakuracoin.store.BlockStoreException;
+import com.google.sakuracoin.store.SPVBlockStore;
 import com.google.common.util.concurrent.ListenableFuture;
 import org.bitcoinj.wallet.Protos.Wallet.EncryptionType;
 import org.multibit.ApplicationDataDirectoryLocator;
