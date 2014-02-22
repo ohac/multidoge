@@ -21,10 +21,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.multibit</groupId>
-    <artifactId>multidoge</artifactId>
+    <artifactId>multisakura</artifactId>
     <version>0.1.1</version>
-    <name>MultiDoge</name>
-    <description>A Java Swing client for Dogecoin</description>
+    <name>MultiSakura</name>
+    <description>A Java Swing client for Sakuracoin</description>
     <url>https://multidoge.org</url>
     <!-- Use "mvn clean package" to build the code packaged into a basic multidoge.jar 
   		Use "mvn clean verify" before submitting a patch Use "mvn clean install" 
@@ -42,12 +42,12 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/langerhans/multidoge/issues</url>
+        <url>https://github.com/ohac/multidoge/issues</url>
     </issueManagement>
 
     <scm>
         <!-- Public read-only source -->
-        <url>https://github.com/langerhans/multidoge</url>
+        <url>https://github.com/ohac/multidoge</url>
     </scm>
 
     <repositories>
@@ -61,7 +61,7 @@
             <snapshots/>
             <url>https://oss.sonatype.org/content/groups/public</url>
         </repository>
-        <!-- dogecoin-j repo -->
+        <!-- sakuracoin-j repo -->
         <repository>
             <id>bitcoinj-release</id>
             <releases />
@@ -76,7 +76,7 @@
     </repositories>
 
     <build>
-        <finalName>multidoge</finalName>
+        <finalName>multisakura</finalName>
         <resources>
             <!-- filter properties files e.g. version.properties -->
             <resource>
@@ -190,7 +190,7 @@
                             <maxMemory>256m</maxMemory>
                             <attach>false</attach>
                             <addMavenDescriptor>false</addMavenDescriptor>
-                            <proguardInclude>src/main/proguard/multidoge-exe.pro</proguardInclude>
+                            <proguardInclude>src/main/proguard/multisakura-exe.pro</proguardInclude>
                         </configuration>
                     </execution>
                 </executions>
@@ -226,20 +226,20 @@
                                         <include>install.xml</include>
                                         <include>readme.txt</include>
                                         <include>Unix_shortcutSpec.xml</include>
-                                        <include>multidoge-protocol-handler.sh</include>
+                                        <include>multisakura-protocol-handler.sh</include>
                                     </includes>
                                 </resource>
                                 <resource>
                                     <directory>${basedir}/src/main/resources/images</directory>
                                     <includes>
                                         <include>installerLeft.png</include>
-                                        <include>multidoge48.png</include>
+                                        <include>multisakura48.png</include>
                                     </includes>
                                 </resource>
                                 <resource>
                                     <directory>src/main/resources</directory>
                                     <includes>
-                                        <include>multidoge.checkpoints</include>
+                                        <include>multisakura.checkpoints</include>
                                     </includes>
                                 </resource>
                                 <resource>
@@ -254,7 +254,7 @@
                                 <resource>
                                     <directory>target</directory>
                                     <includes>
-                                        <include>multidoge-exe.jar</include>
+                                        <include>multisakura-exe.jar</include>
                                     </includes>
                                 </resource>
                             </resources>
@@ -286,13 +286,13 @@
                                     <directory>${basedir}/src/main/resources/images</directory>
                                     <includes>
                                         <include>installerLeft.png</include>
-                                        <include>multidoge.ico</include>
+                                        <include>multisakura.ico</include>
                                     </includes>
                                 </resource>
                                 <resource>
                                     <directory>src/main/resources</directory>
                                     <includes>
-                                        <include>multidoge.checkpoints</include>
+                                        <include>multisakura.checkpoints</include>
                                     </includes>
                                 </resource>
                                 <resource>
@@ -307,7 +307,7 @@
                                 <resource>
                                     <directory>target</directory>
                                     <includes>
-                                        <include>multidoge.exe</include>
+                                        <include>multisakura.exe</include>
                                     </includes>
                                 </resource>
                             </resources>
@@ -326,12 +326,12 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${basedir}/target/MultiDoge.app
+                            <outputDirectory>${basedir}/target/MultiSakura.app
                             </outputDirectory>
                             <resources>
                                 <resource>
                                     <!-- skeleton app including JRE -->
-                                    <directory>src/app-resources/MultiDoge.app</directory>
+                                    <directory>src/app-resources/MultiSakura.app</directory>
                                 </resource>
                             </resources>
                         </configuration>
@@ -343,14 +343,14 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${basedir}/target/MultiDoge.app/Contents/Resources/Java
+                            <outputDirectory>${basedir}/target/MultiSakura.app/Contents/Resources/Java
                             </outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${basedir}/target/staging.linux</directory>
                                     <includes>
-                                        <include>multidoge-exe.jar</include>
-                                        <include>multidoge.checkpoints</include>
+                                        <include>multisakura-exe.jar</include>
+                                        <include>multisakura.checkpoints</include>
                                         <include>release_notes.txt</include>
                                         <include>configuration.md</include>
                                         <include>COPYING</include>
@@ -421,28 +421,28 @@
                                 <!-- Make the JavaApplicationStub in the Mac application bundle executable
                        									(it loses its 'x' permission after the copy) -->
                                 <chmod
-                                        file="${basedir}/target/MultiDoge.app/Contents/MacOS/JavaApplicationStub"
+                                        file="${basedir}/target/MultiSakura.app/Contents/MacOS/JavaApplicationStub"
                                         perm="777" />
 
                                 <copy
-                                        todir="${basedir}/target/MultiDoge-mac/MultiDoge.app">
-                                    <fileset dir="${basedir}/target/MultiDoge.app"
+                                        todir="${basedir}/target/MultiSakura-mac/MultiSakura.app">
+                                    <fileset dir="${basedir}/target/MultiSakura.app"
                                              includes="**" />
                                 </copy>
                                 <copy file="${basedir}/src/main/izpack/mac/readme.txt"
-                                      todir="${basedir}/target/MultiDoge-mac" />
+                                      todir="${basedir}/target/MultiSakura-mac" />
 
                                 <!-- Create Applications Symbolic link -->
                                 <!-- WARNING, do not remove this symbolic link by Java(ant) -->
                                 <exec executable="ln" os="'Mac OS X'">
                                     <arg
-                                            line="-s /Applications ${basedir}/target/MultiDoge-mac/Applications" />
+                                            line="-s /Applications ${basedir}/target/MultiSakura-mac/Applications" />
                                 </exec>
 
                                 <!-- Make the JavaAppLauncher in the MultiBit app (it loses its
                        									'x' permission after the copy) -->
                                 <chmod
-                                        file="${basedir}/target/MultiDoge-mac/MultiDoge.app/Contents/MacOS/JavaApplicationStub"
+                                        file="${basedir}/target/MultiSakura-mac/MultiSakura.app/Contents/MacOS/JavaApplicationStub"
                                         perm="777" />
 
                                 <!-- Sign the Mac app -->
@@ -463,19 +463,19 @@
                                     <arg value="-imagekey"/>
                                     <arg value="zlib-level=9" />
                                     <arg value="-srcfolder" />
-                                    <arg value="${basedir}/target/MultiDoge-mac" />
-                                    <arg value="${basedir}/target/multidoge-${project.version}.dmg" />
+                                    <arg value="${basedir}/target/MultiSakura-mac" />
+                                    <arg value="${basedir}/target/multisakura-${project.version}.dmg" />
                                 </exec>
 
                                 <!-- IMPORTANT! -->
                                 <!-- Remove symbolic link before deleting tmp dir -->
                                 <exec executable="rm" os="'Mac OS X'">
-                                    <arg line="-R ${basedir}/target/MultiDoge-mac/Applications" />
+                                    <arg line="-R ${basedir}/target/MultiSakura-mac/Applications" />
                                 </exec>
 
                                 <!-- get rid of temporary directory -->
                                 <delete includeEmptyDirs="true">
-                                    <fileset dir="${basedir}/target/MultiDoge-mac" />
+                                    <fileset dir="${basedir}/target/MultiSakura-mac" />
                                 </delete>
                             </tasks>
                         </configuration>
@@ -483,7 +483,7 @@
                             <goal>run</goal>
                         </goals>
                     </execution>
-                    <!-- Produce a Win32 exe from the multidoge-exe.jar (no Maven plugin 
+                    <!-- Produce a Win32 exe from the multisakura-exe.jar (no Maven plugin 
               						for JSmooth so drop down to ant) -->
                     <execution>
                         <id>jsmooth-installer2exe-exe</id>
@@ -520,7 +520,7 @@
                                          classpathref="jsmooth-classpathref" />
                                 <jsmoothgen project="src/main/jsmooth/installer.jsmooth"
                                             skeletonroot="src/main/jsmooth/skeletons" />
-                                <move file="target/multidoge-windows.exe" tofile="target/multidoge-${project.version}-windows-setup.exe" />
+                                <move file="target/multisakura-windows.exe" tofile="target/multisakura-${project.version}-windows-setup.exe" />
                             </tasks>
                         </configuration>
                         <goals>
@@ -676,7 +676,7 @@
         </dependency>
         <dependency>
             <groupId>com.google</groupId>
-            <artifactId>dogecoinj</artifactId>
+            <artifactId>sakuracoinj</artifactId>
             <version>${bitcoinj.version}</version>
             <scope>compile</scope>
         </dependency>

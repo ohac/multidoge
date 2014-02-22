@@ -1,10 +1,10 @@
 <shortcuts> 
    <programGroup defaultName="MultiDoge" location="applications"/> 
    <shortcut name="MultiDoge ${project.version}" 
-             target="$INSTALL_PATH/multidoge.exe" 
+             target="$INSTALL_PATH/multisakura.exe" 
              description="MultiDoge" 
              workingDirectory="$INSTALL_PATH"
-             iconFile="$INSTALL_PATH/multidoge.ico" 
+             iconFile="$INSTALL_PATH/multisakura.ico" 
              initialState="normal" 
              programGroup="yes"
              desktop="yes" 

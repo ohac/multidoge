@@ -6,8 +6,8 @@
 
 # Specify the input jars, output jars, and library jars.
 
--injars  ../../../target/multidoge-exe-full.jar
--outjars ../../../target/multidoge-exe.jar
+-injars  ../../../target/multisakura-exe-full.jar
+-outjars ../../../target/multisakura-exe.jar
 
 -libraryjars ../skeleton/mac/MultiDoge.app/Contents/Plugins/jdk1.7.0_25.jdk/Contents/Home/jre/lib/rt.jar
 -libraryjars ../skeleton/mac/MultiDoge.app/Contents/Plugins/jdk1.7.0_25.jdk/Contents/Home/jre/lib/alt-rt.jar
@@ -102,17 +102,17 @@
 -keep public class com.piuk.blockchain.**
 -keep class com.piuk.blockchain.**
 
--keep public class com.google.dogecoin.**
+-keep public class com.google.sakuracoin.**
 {
  *;
 }
--keep class com.google.dogecoin.**
+-keep class com.google.sakuracoin.**
 {
  *;
 }
 
--keep public class org.dogecoin.**
--keep public class org.dogecoinj.**
+-keep public class org.sakuracoin.**
+-keep public class org.sakuracoinj.**
 -keep public class org.simplericity.macify.**
 -keep public class sun.misc.Cleaner
 -keep public class ch.qos.**
@@ -153,9 +153,9 @@
 -keep public interface com.xeiam.xchange.**
 -keep public interface org.multibit.**
 -keep public interface com.piuk.blockchain.**
--keep public interface com.google.dogecoin.**
--keep public interface org.dogecoin.**
--keep public interface org.dogecoinj.**
+-keep public interface com.google.sakuracoin.**
+-keep public interface org.sakuracoin.**
+-keep public interface org.sakuracoinj.**
 -keep public interface org.simplericity.macify.**
 -keep public interface si.mazi.**
 -keep public interface javax.ws.**

@@ -77,16 +77,16 @@
             <description>MultiDoge install files.</description>
             <file src="readme.txt" targetdir="$INSTALL_PATH"/>
             <file src="configuration.md" targetdir="$INSTALL_PATH"/>
-            <file src="multidoge48.png" targetdir="$INSTALL_PATH"/>
-            <file src="multidoge.checkpoints" targetdir="$INSTALL_PATH"/>
+            <file src="multisakura48.png" targetdir="$INSTALL_PATH"/>
+            <file src="multisakura.checkpoints" targetdir="$INSTALL_PATH"/>
             <file src="release_notes.txt" targetdir="$INSTALL_PATH"/>
             <file src="COPYING" targetdir="$INSTALL_PATH"/>
             <file src="authors.txt" targetdir="$INSTALL_PATH"/>
-            <file src="multidoge-exe.jar" targetdir="$INSTALL_PATH"/>
-            <file src="multidoge-protocol-handler.sh" targetdir="$INSTALL_PATH" os="linux"/>
-            <parsable targetfile="$INSTALL_PATH/multidoge-protocol-handler.sh"  os="linux"/>
-            <executable type="bin" stage="never" targetfile="$INSTALL_PATH/multidoge-protocol-handler.sh" os="linux" />
-            <executable type="bin" stage="postinstall" targetfile="$INSTALL_PATH/multidoge-protocol-handler.sh" os="linux" />
+            <file src="multisakura-exe.jar" targetdir="$INSTALL_PATH"/>
+            <file src="multisakura-protocol-handler.sh" targetdir="$INSTALL_PATH" os="linux"/>
+            <parsable targetfile="$INSTALL_PATH/multisakura-protocol-handler.sh"  os="linux"/>
+            <executable type="bin" stage="never" targetfile="$INSTALL_PATH/multisakura-protocol-handler.sh" os="linux" />
+            <executable type="bin" stage="postinstall" targetfile="$INSTALL_PATH/multisakura-protocol-handler.sh" os="linux" />
         </pack>
     </packs>
 </installation>

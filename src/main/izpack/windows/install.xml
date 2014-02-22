@@ -31,7 +31,7 @@
     <variable name="DesktopShortcutCheckboxEnabled" value="true"/>
   </variables>
 
-  <!-- Register protocol handling for dogecoin: URI -->
+  <!-- Register protocol handling for sakuracoin: URI -->
   <listeners>
     <listener installer="RegistryInstallerListener"
               uninstaller="RegistryUninstallerListener">
@@ -95,12 +95,12 @@
       <description>MultiDoge install files.</description>
       <file src="readme.txt" targetdir="$INSTALL_PATH"/>
       <file src="configuration.md" targetdir="$INSTALL_PATH"/>
-      <file src="multidoge.ico" targetdir="$INSTALL_PATH"/>
-      <file src="multidoge.checkpoints" targetdir="$INSTALL_PATH"/>
+      <file src="multisakura.ico" targetdir="$INSTALL_PATH"/>
+      <file src="multisakura.checkpoints" targetdir="$INSTALL_PATH"/>
       <file src="release_notes.txt" targetdir="$INSTALL_PATH"/>
       <file src="COPYING" targetdir="$INSTALL_PATH"/>
       <file src="authors.txt" targetdir="$INSTALL_PATH"/>
-      <file src="multidoge.exe" targetdir="$INSTALL_PATH"/>
+      <file src="multisakura.exe" targetdir="$INSTALL_PATH"/>
     </pack>
   </packs>
 

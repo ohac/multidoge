@@ -33,10 +33,10 @@ import org.multibit.message.MessageManager;
 import org.multibit.viewsystem.swing.view.components.FontSizer;
 import org.multibit.viewsystem.swing.view.panels.ExportPrivateKeysPanel;
 
-import com.google.dogecoin.core.Utils;
-import com.google.dogecoin.crypto.EncryptedPrivateKey;
-import com.google.dogecoin.crypto.KeyCrypter;
-import com.google.dogecoin.crypto.KeyCrypterException;
+import com.google.sakuracoin.core.Utils;
+import com.google.sakuracoin.crypto.EncryptedPrivateKey;
+import com.google.sakuracoin.crypto.KeyCrypter;
+import com.google.sakuracoin.crypto.KeyCrypterException;
 import org.multibit.CreateControllers;
 
 

@@ -2,41 +2,41 @@
 Require the following structure on Windows
 see http://msdn.microsoft.com/en-us/library/aa767914(v=vs.85).aspx
 
-dogecoin.reg:
+sakuracoin.reg:
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\dogecoin]
+[HKEY_CLASSES_ROOT\sakuracoin]
 @="URL:Dogecoin Protocol"
 "URL Protocol"=""
 
-[HKEY_CLASSES_ROOT\dogecoin\DefaultIcon]
-@="multidoge.exe,1"
+[HKEY_CLASSES_ROOT\sakuracoin\DefaultIcon]
+@="multisakura.exe,1"
 
-[HKEY_CLASSES_ROOT\dogecoin\shell]
+[HKEY_CLASSES_ROOT\sakuracoin\shell]
 
-[HKEY_CLASSES_ROOT\dogecoin\shell\open]
+[HKEY_CLASSES_ROOT\sakuracoin\shell\open]
 
-[HKEY_CLASSES_ROOT\dogecoin\shell\open\command]
-@="\"C:\\Program Files\\MultiDoge-0.2.0beta4\\multidoge.exe\" \"%1\""
+[HKEY_CLASSES_ROOT\sakuracoin\shell\open\command]
+@="\"C:\\Program Files\\MultiDoge-0.2.0beta4\\multisakura.exe\" \"%1\""
 
 
 -->
 <registry>
   <pack name="MultiDoge">
-    <key root="HKCR" keypath="dogecoin" />
-    <value root="HKCR" name="" keypath="dogecoin" string="URL:Dogecoin Protocol"/>
-    <value root="HKCR" name="URL Protocol" keypath="dogecoin" string=""/>
-    <value root="HKCR" name="UseOriginalUrlEncoding" keypath="dogecoin" dword="1"/>
+    <key root="HKCR" keypath="sakuracoin" />
+    <value root="HKCR" name="" keypath="sakuracoin" string="URL:Dogecoin Protocol"/>
+    <value root="HKCR" name="URL Protocol" keypath="sakuracoin" string=""/>
+    <value root="HKCR" name="UseOriginalUrlEncoding" keypath="sakuracoin" dword="1"/>
 
-    <key root="HKCR" keypath="dogecoin\DefaultIcon" />
-    <value root="HKCR" name="" keypath="dogecoin\DefaultIcon" string="multidoge.exe,1"/>
+    <key root="HKCR" keypath="sakuracoin\DefaultIcon" />
+    <value root="HKCR" name="" keypath="sakuracoin\DefaultIcon" string="multisakura.exe,1"/>
 
-    <key root="HKCR" keypath="dogecoin\shell" />
+    <key root="HKCR" keypath="sakuracoin\shell" />
 
-    <key root="HKCR" keypath="dogecoin\shell\open" />
+    <key root="HKCR" keypath="sakuracoin\shell\open" />
 
-    <key root="HKCR" keypath="dogecoin\shell\open\command" />
-    <value root="HKCR" keypath="dogecoin\shell\open\command" name="" string="&quot;$INSTALL_PATH\multidoge.exe&quot; &quot;%1&quot;" />
+    <key root="HKCR" keypath="sakuracoin\shell\open\command" />
+    <value root="HKCR" keypath="sakuracoin\shell\open\command" name="" string="&quot;$INSTALL_PATH\multisakura.exe&quot; &quot;%1&quot;" />
 
   </pack>
 </registry>

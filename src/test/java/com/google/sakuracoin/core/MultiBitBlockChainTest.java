@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.google.dogecoin.core;
+package com.google.sakuracoin.core;
 
-import com.google.dogecoin.core.Wallet.BalanceType;
-import com.google.dogecoin.store.BlockStore;
-import com.google.dogecoin.store.MemoryBlockStore;
-import com.google.dogecoin.utils.BriefLogFormatter;
+import com.google.sakuracoin.core.Wallet.BalanceType;
+import com.google.sakuracoin.store.BlockStore;
+import com.google.sakuracoin.store.MemoryBlockStore;
+import com.google.sakuracoin.utils.BriefLogFormatter;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.math.BigInteger;
 
-import static com.google.dogecoin.core.CoreTestUtils.createFakeBlock;
-import static com.google.dogecoin.core.CoreTestUtils.createFakeTx;
+import static com.google.sakuracoin.core.CoreTestUtils.createFakeBlock;
+import static com.google.sakuracoin.core.CoreTestUtils.createFakeTx;
 import static org.junit.Assert.*;
 
 // Handling of chain splits/reorgs are in ChainSplitTests.
