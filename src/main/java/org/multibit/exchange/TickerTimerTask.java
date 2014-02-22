@@ -29,7 +29,7 @@ import org.multibit.controller.Controller;
 import org.multibit.controller.exchange.ExchangeController;
 import org.multibit.model.exchange.ExchangeData;
 import org.multibit.model.exchange.ExchangeModel;
-import org.multibit.utils.DogeUtils;
+import org.multibit.utils.SakuraUtils;
 import org.multibit.viewsystem.swing.MultiBitFrame;
 
 import org.slf4j.Logger;
@@ -251,7 +251,7 @@ public class TickerTimerTask extends TimerTask {
                             }
 
                             log.debug("Getting SKR conversion");
-                            float dogeRate = DogeUtils.requestDogeBtcConversion();
+                            float dogeRate = SakuraUtils.requestSakuraBtcConversion();
                             if (dogeRate == 0f)
                             {
                                 log.debug("Problem getting SKR conversion");

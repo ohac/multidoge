@@ -14,9 +14,9 @@ import java.net.URL;
 /**
  * Created by Max on 06.02.14.
  */
-public class DogeUtils {
+public class SakuraUtils {
 
-    private static Logger log = LoggerFactory.getLogger(DogeUtils.class);
+    private static Logger log = LoggerFactory.getLogger(SakuraUtils.class);
 
     private static final URL SKRPOOL_URL;
     private static final URL CRYPTSY_URL;
@@ -36,7 +36,7 @@ public class DogeUtils {
         }
     }
 
-    public static float requestDogeBtcConversion() {
+    public static float requestSakuraBtcConversion() {
         HttpURLConnection connection = null;
         Reader reader = null;
 
